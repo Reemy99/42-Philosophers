@@ -32,36 +32,8 @@ Summary: In this project, you will learn the basics of threading a process. You 
 | pthread_join   |  function allows a calling thread to block and wait for the termination of another thread|
 |pthread_create  | function creates a new thread and starts its execution|
 |pthread_detach| function allows a thread to exit without the need for another thread to call pthread_join to clean up its resources. When a thread is detached, its resources are automatically released when it terminates.|
+|pthread_mutex_init| used to initialize a mutex|
+|pthread_mutex_lock| used to lock the mutex and gain exclusive access to the shared data|
+|pthread_mutex_unlock| used to unlock the mutex and release the shared data|
+|pthread_mutex_destroy| s used to clean up the mutex when it is no longer needed|
 
-
-# External functs
-free
-
-write
-
-printf
-
-memset
-
-malloc
-
-usleep
-
-gettimeofday
-
-pthread_join
-
-pthread_create
-
-pthread_detach
-
-pthread_mutex_init
-
-pthread_mutex_lock
-
-pthread_mutex_unlock
-
-pthread_mutex_destroy
-
-# pthread_mutex_lock
-locks the given mutex. If the mutex is currently unlocked, it becomes locked and owned by the calling thread, and pthread_mutex_lock returns immediately. If the mutex is already locked by another thread, pthread_mutex_lock suspends the calling thread until the mutex is unlocked.
