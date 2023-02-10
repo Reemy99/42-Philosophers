@@ -30,7 +30,7 @@ Summary: In this project, you will learn the basics of threading a process. You 
 |-----------------|--------------------------------------------------------|
 | gettimeofday    | is a function for obtaining the current time. It is defined in the header file sys/time.h and provides the time with microsecond resolution.
                                       |
-| Row 2, Column 1 | Row 2, Column 2                                        | 
+| pthread_join.   |  function allows a calling thread to block and wait for the termination of another thread. The function takes two arguments:                                       | 
 
 
 # External functs
