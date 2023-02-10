@@ -25,6 +25,13 @@ Summary: In this project, you will learn the basics of threading a process. You 
 
 4.Hopefully no philosophers should starve to death (i.e. wait over a certain amount of time before she acquires both chopsticks).
 
+
+| function        | Description
+|-----------------|--------------------------------------------------------|
+| Row 1, Column 1 | Row 1, Column 2                                        |
+| Row 2, Column 1 | Row 2, Column 2                                        | 
+
+
 # External functs
 free
 
