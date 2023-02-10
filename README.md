@@ -31,6 +31,7 @@ Summary: In this project, you will learn the basics of threading a process. You 
 | gettimeofday    | is a function for obtaining the current time. It is defined in the header file sys/time.h and provides the time with microsecond resolution.|
 | pthread_join   |  function allows a calling thread to block and wait for the termination of another thread|
 |pthread_create  | function creates a new thread and starts its execution|
+|pthread_detach| function allows a thread to exit without the need for another thread to call pthread_join to clean up its resources. When a thread is detached, its resources are automatically released when it terminates.|
 
 
 # External functs
