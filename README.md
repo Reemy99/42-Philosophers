@@ -28,7 +28,8 @@ Summary: In this project, you will learn the basics of threading a process. You 
 
 | function        | Description
 |-----------------|--------------------------------------------------------|
-| Row 1, Column 1 | Row 1, Column 2                                        |
+| gettimeofday    | is a function for obtaining the current time. It is defined in the header file sys/time.h and provides the time with microsecond resolution.
+                                      |
 | Row 2, Column 1 | Row 2, Column 2                                        | 
 
 
